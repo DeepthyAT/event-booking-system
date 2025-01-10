@@ -5,7 +5,7 @@ Below are the steps and guidelines to create the necessary documentation and set
 
 ## Code Description
 
-This project is a Node.js-based Event Booking System designed to manage events, track user bookings, and optimize performance using caching and messaging.
+This project is a Node.js-based Event Booking System designed to manage events, track user bookings
 
 ### Key Components
 1. **API**: 
@@ -21,8 +21,6 @@ This project is a Node.js-based Event Booking System designed to manage events, 
 
 4. **Flow of the System**:
    - API interacts with MySQL to store and fetch data.
-   - Redis is queried for cached booking counts, falling back to MySQL if data is not found.
-   - RabbitMQ handles asynchronous tasks like email notifications.
 
 ## Pre-requisites
 - Node.js v14.x or higher
